@@ -1,0 +1,27 @@
+.morris-hover {
+  position: absolute;
+  z-index: 3;
+}
+
+.morris-hover.morris-default-style {
+  border-radius: 10px;
+  padding: 6px;
+  color: #666;
+  background: rgba(255, 255, 255, 0.8);
+  border: solid 2px rgba(230, 230, 230, 0.8);
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.morris-hover.morris-default-style .morris-hover-row-label {
+  font-weight: bold;
+  margin: 0.25em 0;
+}
+
+.morris-hover.morris-default-style .morris-hover-point {
+  white-space: nowrap;
+  margin: 0.1em 0;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvc2Fzcy92ZW5kb3ItbW9ycmlzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxtQkFBa0I7RUFDbEIsV0FBVTtDQW1CWDs7QUFyQkQ7RUFJSSxvQkFBbUI7RUFDbkIsYUFBWTtFQUNaLFlBQVc7RUFDWCxxQ0FBb0M7RUFDcEMsMkNBQTBDO0VBQzFDLHdCQUF1QjtFQUN2QixnQkFBZTtFQUNmLG1CQUFrQjtDQVNuQjs7QUFwQkg7RUFhTSxrQkFBaUI7RUFDakIsaUJBQWdCO0NBQ2pCOztBQWZMO0VBaUJNLG9CQUFtQjtFQUNuQixnQkFBZTtDQUNoQiIsImZpbGUiOiJkaXN0L2Fzc2V0cy9jc3MvdmVuZG9yLW1vcnJpcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubW9ycmlzLWhvdmVyIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB6LWluZGV4OiAzO1xuICAmLm1vcnJpcy1kZWZhdWx0LXN0eWxlIHtcbiAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgIHBhZGRpbmc6IDZweDtcbiAgICBjb2xvcjogIzY2NjtcbiAgICBiYWNrZ3JvdW5kOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuOCk7XG4gICAgYm9yZGVyOiBzb2xpZCAycHggcmdiYSgyMzAsIDIzMCwgMjMwLCAwLjgpO1xuICAgIGZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmO1xuICAgIGZvbnQtc2l6ZTogMTJweDtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgLm1vcnJpcy1ob3Zlci1yb3ctbGFiZWwge1xuICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgICBtYXJnaW46IDAuMjVlbSAwO1xuICAgIH1cbiAgICAubW9ycmlzLWhvdmVyLXBvaW50IHtcbiAgICAgIHdoaXRlLXNwYWNlOiBub3dyYXA7XG4gICAgICBtYXJnaW46IDAuMWVtIDA7XG4gICAgfVxuICB9XG59XG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIC4vc3JjL3Nhc3MvdmVuZG9yLW1vcnJpcy5zY3NzIl0sInNvdXJjZVJvb3QiOiIifQ==*/

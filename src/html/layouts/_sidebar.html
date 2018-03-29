@@ -1,0 +1,104 @@
+<nav class="drawer  {{ drawerClass if drawerClass else 'drawer--dark' }}">
+
+  <div class="drawer-spacer">
+    <div class="media align-items-center">
+      <a href="index.html" class="drawer-brand-circle mr-2">H</a>
+      <div class="media-body">
+        <a href="index.html" class="h5 m-0 text-link">Hero Pro - Admin</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADING -->
+  <div class="py-2 drawer-heading">
+    Menu
+  </div>
+
+  <!-- MENU -->
+  <ul class="drawer-menu" id="dasboardMenu" data-children=".drawer-submenu">
+
+    <li class="drawer-menu-item {% if slug == 'index' %}active {% endif %}">
+      <a href="index.html">
+        <i class="material-icons">poll</i>
+        <span class="drawer-menu-text">Dashboard</span>
+      </a>
+    </li>
+
+    <li class="drawer-menu-item {% if slug == 'buttons' %}active {% endif %}">
+      <a href="buttons.html">
+        <i class="material-icons">mouse</i>
+        <span class="drawer-menu-text">Buttons</span>
+      </a>
+    </li>
+
+    <li class="drawer-menu-item {% if slug == 'forms' %}active {% endif %}">
+      <a href="forms.html">
+        <i class="material-icons">edit</i>
+        <span class="drawer-menu-text">Forms</span>
+      </a>
+    </li>
+
+    <li class="drawer-menu-item {% if slug == 'grid' %}active {% endif %}">
+      <a href="grid.html">
+        <i class="material-icons">dashboard</i>
+        <span class="drawer-menu-text">Grid</span>
+      </a>
+    </li>
+
+    <li class="drawer-menu-item {% if slug == 'navs' %}active {% endif %}">
+      <a href="navs.html">
+        <i class="material-icons">tables</i>
+        <span class="drawer-menu-text">Navs</span>
+      </a>
+    </li>
+
+    <li class="drawer-menu-item {% if slug == 'material-icons' %}active {% endif %}">
+      <a href="material-icons.html">
+        <i class="material-icons">account_circle</i>
+        <span class="drawer-menu-text">Material Icons</span>
+      </a>
+    </li>
+
+    <li class="drawer-menu-item {% if slug == 'typography' %}active {% endif %}">
+      <a href="typography.html">
+        <i class="material-icons">font_download</i>
+        <span class="drawer-menu-text">Typography</span>
+      </a>
+    </li>
+
+    <li class="drawer-menu-item {% if slug == 'tables' %}active {% endif %}">
+      <a href="tables.html">
+        <i class="material-icons">list</i>
+        <span class="drawer-menu-text">Tables</span>
+      </a>
+    </li>
+
+    <li class="drawer-menu-item {% if slug == 'notifications' %}active {% endif %}">
+      <a href="notifications.html">
+        <i class="material-icons">notifications_active</i>
+        <span class="drawer-menu-text">Notifications</span>
+      </a>
+    </li>
+
+    <li class="drawer-menu-item {% if slug == 'checkboxes-radios' %}active {% endif %}">
+      <a href="checkboxes-radios.html">
+        <i class="material-icons">check_box</i>
+        <span class="drawer-menu-text">Checkboxes &amp; Radios</span>
+      </a>
+    </li>
+
+    <li class="drawer-menu-item drawer-submenu">
+      <a data-toggle="collapse" data-parent="#mainMenu" href="#" data-target="#submenuItems" aria-controls="submenuItems" {% if category == 'ui' %} aria-expanded="true"  {% else %}  aria-expanded="false"  class="collapsed"{% endif %}>
+        <i class="material-icons">library_books</i>
+        <span class="drawer-menu-text">Submenu Items</span>
+      </a>
+      <ul class="collapse {% if category == 'ui' %}show {% endif %}" id="submenuItems">
+        <li class="drawer-menu-item"><a href="#">Item 1</a></li>
+        <li class="drawer-menu-item"><a href="#">Item 2</a></li>
+        <li class="drawer-menu-item"><a href="#">Item 3</a></li>
+      </ul>
+    </li>
+
+  </ul>
+
+</nav>

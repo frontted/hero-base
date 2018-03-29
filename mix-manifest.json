@@ -1,0 +1,15 @@
+{
+    "/dist/assets/css/app.css": "/dist/assets/css/app.css",
+    "/dist/assets/css/vendor-morris.css": "/dist/assets/css/vendor-morris.css",
+    "/dist/assets/vendor/bootstrap.min.js": "/dist/assets/vendor/bootstrap.min.js",
+    "/dist/assets/vendor/jquery.min.js": "/dist/assets/vendor/jquery.min.js",
+    "/dist/assets/vendor/popper.js": "/dist/assets/vendor/popper.js",
+    "/dist/assets/fonts/material-icons/MaterialIcons-Regular.eot": "/dist/assets/fonts/material-icons/MaterialIcons-Regular.eot",
+    "/dist/assets/fonts/material-icons/MaterialIcons-Regular.ttf": "/dist/assets/fonts/material-icons/MaterialIcons-Regular.ttf",
+    "/dist/assets/fonts/material-icons/MaterialIcons-Regular.woff": "/dist/assets/fonts/material-icons/MaterialIcons-Regular.woff",
+    "/dist/assets/fonts/material-icons/MaterialIcons-Regular.woff2": "/dist/assets/fonts/material-icons/MaterialIcons-Regular.woff2",
+    "/dist/assets/vendor/dom-factory.js": "/dist/assets/vendor/dom-factory.js",
+    "/dist/assets/vendor/material-design-kit.js": "/dist/assets/vendor/material-design-kit.js",
+    "/dist/assets/vendor/morris.min.js": "/dist/assets/vendor/morris.min.js",
+    "/dist/assets/vendor/raphael.min.js": "/dist/assets/vendor/raphael.min.js"
+}
