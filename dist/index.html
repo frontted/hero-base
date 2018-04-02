@@ -21,7 +21,7 @@
 
         <div class="mdk-drawer-layout__content">
             <!-- header-layout -->
-            <div class="mdk-header-layout js-mdk-header-layout  mdk-header--fixed  mdk-header-layout__content--scrollable">
+            <div class="mdk-header-layout js-mdk-header-layout mdk-header--fixed mdk-header-layout__content--scrollable">
                 <!-- header -->
                 <div class="mdk-header js-mdk-header mdk-header--fixed bg-primary" data-fixed>
                     <div class="mdk-header__content">
@@ -61,17 +61,44 @@
         </a>
                                     </li>
 
-                                    <li class="nav-item nav-divider">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link dropdown-toggle dropdown-clear-caret" data-toggle="sidebar" data-target="#user-drawer">
-            Frontted
-            <img src="https://pbs.twimg.com/profile_images/928893978266697728/3enwe0fO_400x400.jpg" class="img-fluid rounded-circle ml-1" width="35"
-            alt="">
-          </a>
-                                        </li>
+                                    <li class="nav-item dropdown nav-dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle dropdown-clear-caret" data-toggle="dropdown" aria-expanded="true">
+          Frontted
+          <img src="https://pbs.twimg.com/profile_images/928893978266697728/3enwe0fO_400x400.jpg" class="img-fluid rounded-circle ml-1" width="35"
+          alt="">
+        </a>
+                                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-account">
+                                            <div class="account-info">
+                                                <img src="assets/images/avatars/person-3.jpg" class="img-fluid rounded-circle mr-2" width="45" alt="">
+                                                <div class="lh-12">
+                                                    <a href="#"><strong>Andrew Robles</strong></a>
+                                                    <div class="text-light">Site Manager</div>
+                                                </div>
+                                            </div>
+                                            <ul class="list-unstyled account-menu">
+                                                <li><a href="#" class="dropdown-item "><i class="material-icons md-18 align-middle mr-1">lock</i> <span class="align-middle">Account</span></a></li>
+                                                <li><a href="#" class="dropdown-item "><i class="material-icons md-18 align-middle mr-1">account_circle</i> <span class="align-middle">Profile</span></a></li>
+                                                <li><a href="#" class="dropdown-item"><i class="material-icons md-18 align-middle mr-1">settings</i> <span class="align-middle">Settings</span></a></li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">
+                <i class="material-icons md-18 align-middle mr-1">build</i>
+                <span class="align-middle">Support</span>
+              </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">
+                <i class="material-icons md-18 align-middle mr-1">question_answer</i>
+                <span class="align-middle">FAQ</span>
+              </a>
+                                                </li>
+                                                <li><a href="login.html" class="dropdown-item"><i class="material-icons md-18 align-middle mr-1">exit_to_app</i> <span class="align-middle">Logout</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>
+
                     </div>
                 </div>
 

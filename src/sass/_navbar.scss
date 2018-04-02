@@ -47,6 +47,42 @@
   }
 }
 
+.dropdown-menu-account {
+  margin-right: .625rem;
+  width: 280px;
+  padding: 0;
+  .account-info {
+    a {
+      color: #ffffff;
+      font-weight: bold;
+    }
+    img {
+      border: 2px solid #ffffff;
+    }
+    padding: 1.25rem;
+    background: theme-color('primary');
+    .text-light {
+      color: rgba(255,255,255, .54) !important;
+    }
+    display: flex;
+    align-items: center;
+  }
+  .account-menu {
+    padding: 1.25rem;
+    .dropdown-item {
+      padding-left: 0;
+      i { color: $text-muted; }
+      &:hover { background: transparent; }
+      &.active {
+        background: transparent;
+        color: theme-color('text-color');
+        font-weight:bold;
+        i { color: theme-color('primary'); }
+      }
+    }
+  }
+}
+
 .navbar.navbar-mini {
   height: $navbar-mini-height;
 }
@@ -220,6 +256,7 @@
      }
   }
 }
+
 .nav-item.nav-divider {
   position: relative;
   width:2px;
